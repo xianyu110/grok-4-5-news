@@ -1,0 +1,18 @@
+# Grok 4.5 News Tracker
+
+URL: https://xianyu110.github.io/grok-4-5-news/
+
+This page tracks Grok 4.5 release-date signals, API availability, benchmark rumors, and official xAI model status. It separates official documentation from reported claims.
+
+Important status as of July 8, 2026:
+
+- Grok 4.5 is not verified as a public API model in official xAI model documentation checked for this page.
+- Reported claims about private beta testing and near-term release timing should be treated as unconfirmed until xAI publishes official release notes, model IDs, pricing, or model cards.
+- The page is independent and not affiliated with xAI.
+
+Primary sources linked from the page:
+
+- Official xAI model documentation: https://docs.x.ai/developers/models
+- Official xAI news page: https://x.ai/news
+- Gizmodo report: https://gizmodo.com/spacexai-will-reportedly-release-a-major-new-ai-model-this-week-2000782710
+- Elon Musk X post: https://x.com/elonmusk/status/2071184354756477041
