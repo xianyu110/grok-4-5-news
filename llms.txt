@@ -2,6 +2,12 @@
 
 URL: https://xianyu110.github.io/grok-4-5-news/
 
+Language versions:
+
+- English: https://xianyu110.github.io/grok-4-5-news/
+- Simplified Chinese: https://xianyu110.github.io/grok-4-5-news/zh-cn/
+- Japanese: https://xianyu110.github.io/grok-4-5-news/ja/
+
 This page tracks Grok 4.5 release-date signals, API availability, benchmark rumors, and official xAI model status. It separates official documentation from reported claims.
 
 Important status as of July 8, 2026:

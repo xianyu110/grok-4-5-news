@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grok 4.5 最新情報：リリース日、API 状況、噂の追跡</title>
+  <meta name="description" content="Grok 4.5 の最新ニュース、リリース日、API 利用可否、ベンチマークの噂、xAI 公式モデル状況を公式情報と報道に分けて追跡します。">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://xianyu110.github.io/grok-4-5-news/ja/">
+  <link rel="alternate" hreflang="en-US" href="https://xianyu110.github.io/grok-4-5-news/">
+  <link rel="alternate" hreflang="zh-CN" href="https://xianyu110.github.io/grok-4-5-news/zh-cn/">
+  <link rel="alternate" hreflang="ja" href="https://xianyu110.github.io/grok-4-5-news/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://xianyu110.github.io/grok-4-5-news/">
+  <meta property="og:title" content="Grok 4.5 最新情報トラッカー">
+  <meta property="og:description" content="Grok 4.5 のリリース日、API 状況、ベンチマークの噂、公式確認を追跡します。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xianyu110.github.io/grok-4-5-news/ja/">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:image" content="https://xianyu110.github.io/grok-4-5-news/assets/hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Grok 4.5 最新情報トラッカー">
+  <meta name="twitter:description" content="Grok 4.5 のリリース日、API 状況、ベンチマークの噂、公式ソースを確認。">
+  <meta name="twitter:image" content="https://xianyu110.github.io/grok-4-5-news/assets/hero.png">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Grok 4.5 最新情報トラッカー",
+    "url": "https://xianyu110.github.io/grok-4-5-news/ja/",
+    "description": "日本語ユーザー向けに Grok 4.5 のリリース日、API 状況、ベンチマークの噂、公式モデル状況を追跡するページです。",
+    "inLanguage": "ja",
+    "dateModified": "2026-07-08",
+    "about": [
+      {"@type": "Thing", "name": "Grok 4.5"},
+      {"@type": "Thing", "name": "xAI"},
+      {"@type": "Thing", "name": "AI モデルリリース"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "ja",
+    "mainEntity": [
+      {"@type": "Question", "name": "Grok 4.5 はリリース済みですか？", "acceptedAnswer": {"@type": "Answer", "text": "2026年7月8日時点で、このページが確認した xAI 公式モデルドキュメントには Grok 4.5 は公開 API モデルとして掲載されていません。"}},
+      {"@type": "Question", "name": "Grok 4.5 のリリース日はいつですか？", "acceptedAnswer": {"@type": "Answer", "text": "xAI の公式ニュースページやモデルドキュメントでは公開リリース日は確認されていません。現在の情報は私的ベータや報道ベースの未確認シグナルとして扱うべきです。"}},
+      {"@type": "Question", "name": "Grok 4.5 API は使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "公式 xAI ドキュメント上で公開 Grok 4.5 API モデル ID は確認されていません。"}},
+      {"@type": "Question", "name": "Grok 4.5 のベンチマーク情報は信頼できますか？", "acceptedAnswer": {"@type": "Answer", "text": "公式モデルカード、公開評価方法、再現可能な第三者テストが出るまでは、ベンチマーク情報は未検証として読むべきです。"}},
+      {"@type": "Question", "name": "このページは xAI 公式ですか？", "acceptedAnswer": {"@type": "Answer", "text": "いいえ。このページは独立したニュースおよびリリース状況トラッカーです。"}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="メインナビゲーション">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Grok 4.5 Watch</span>
+      </a>
+      <div class="nav-links">
+        <a href="#status">状況</a>
+        <a href="#timeline">タイムライン</a>
+        <a href="#sources">ソース</a>
+        <a href="#faq">FAQ</a>
+        <span class="language-switch" aria-label="言語版">
+          <a href="../">EN</a>
+          <a href="../zh-cn/">中文</a>
+          <a aria-current="page" href="./">日本語</a>
+        </span>
+        <a class="button top-cta" href="https://trygrokai.asia/list/" rel="nofollow sponsored">TryGrokAI を開く</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Grok 4.5 最新情報：リリース日、噂、API 状況</h1>
+        <p>Grok 4.5 の公開シグナルを、公式ドキュメント、報道、私的ベータの噂、ベンチマーク主張に分けて追跡します。未確認情報を正式リリースとして扱わないためのページです。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://trygrokai.asia/list/" rel="nofollow sponsored">Grok アクセスを試す</a>
+          <a class="button secondary" href="#status">公開状況を見る</a>
+        </div>
+        <p class="hero-note">最終確認：<time datetime="2026-07-08">2026年7月8日</time>。xAI 公式ではない独立トラッカーです。</p>
+      </div>
+      <figure class="hero-media" aria-label="AI モデルリリース追跡ダッシュボードのイラスト">
+        <img src="../assets/hero.png" alt="状態カード、タイムライン、レーダー、グラフを含む抽象的な AI モデルリリース追跡ダッシュボード">
+      </figure>
+    </section>
+
+    <section class="status-band" id="status">
+      <div class="status-main">
+        <span class="label">現在の公開状況</span>
+        <h2>Grok 4.5 は xAI 公式モデルドキュメントで公開確認されていません。</h2>
+        <p>2026年7月8日時点で、このページが確認した xAI 公式モデルドキュメントには、Grok 4.5 が公開 API モデルとして掲載されていません。xAI がモデルページ、モデル ID、API 価格、リリースノートを公開するまでは、リリース日、API、ベンチマーク情報は未確認として扱うべきです。</p>
+      </div>
+      <div class="status-grid">
+        <div class="status-card">
+          <span>公式モデルドキュメント</span>
+          <strong>未掲載</strong>
+          <p>公開 API 利用可否は未確認です。</p>
+        </div>
+        <div class="status-card">
+          <span>私的ベータ報道</span>
+          <strong>報道あり</strong>
+          <p>SpaceX と Tesla での内部テストが報じられています。</p>
+        </div>
+        <div class="status-card">
+          <span>リリース日</span>
+          <strong>未確認</strong>
+          <p>近い公開を示す報道はありますが、公式日付ではありません。</p>
+        </div>
+        <div class="status-card">
+          <span>ベンチマーク</span>
+          <strong>未検証</strong>
+          <p>モデルカードや再現可能な評価が必要です。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <h2>最新の Grok 4.5 ニュースで何が変わったのか</h2>
+        <p class="section-lede">直近の公開情報は正式リリースではありません。SpaceXAI-Cursor の新モデルに関する報道と、以前の Grok 4.5 私的ベータに関する X 投稿が中心です。</p>
+      </div>
+      <div class="fact-table" role="table" aria-label="公式情報と報道の比較">
+        <div role="row" class="fact-row header">
+          <span role="columnheader">シグナル</span>
+          <span role="columnheader">読み方</span>
+        </div>
+        <div role="row" class="fact-row">
+          <span role="cell">xAI モデルドキュメント</span>
+          <span role="cell">公式ソース。このページでは Grok 4.5 の公開モデル項目を確認していません。</span>
+        </div>
+        <div role="row" class="fact-row">
+          <span role="cell">Gizmodo、2026年7月8日</span>
+          <span role="cell">報道。近い時期の重要モデルリリースを伝え、The Information に言及しています。</span>
+        </div>
+        <div role="row" class="fact-row">
+          <span role="cell">Elon Musk の X 投稿、2026年6月28日</span>
+          <span role="cell">一次的なソーシャルシグナル。私的ベータと初期評価に言及しています。</span>
+        </div>
+        <div role="row" class="fact-row">
+          <span role="cell">API モデル ID</span>
+          <span role="cell">未確認。推測の Grok 4.5 モデル名を本番コードに使うべきではありません。</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section-head">
+        <div>
+          <h2>Grok 4.5 タイムライン</h2>
+          <p class="section-lede">公式確認、報道、今後確認すべき項目を分けて確認できます。</p>
+        </div>
+        <div class="filter-group" aria-label="タイムラインフィルター">
+          <button class="filter active" type="button" data-filter="all">すべて</button>
+          <button class="filter" type="button" data-filter="official">公式</button>
+          <button class="filter" type="button" data-filter="reported">報道</button>
+          <button class="filter" type="button" data-filter="watch">注目</button>
+        </div>
+      </div>
+      <div class="timeline">
+        <article class="event" data-kind="official">
+          <time datetime="2026-07-08">2026年7月8日</time>
+          <h3>公式モデルドキュメント確認：Grok 4.5 公開項目は未確認</h3>
+          <p>xAI モデルドキュメントは公開モデル確認に使えますが、この確認では Grok 4.5 の公開 API モデルは見つかっていません。</p>
+        </article>
+        <article class="event" data-kind="reported">
+          <time datetime="2026-07-08">2026年7月8日</time>
+          <h3>Gizmodo が SpaceXAI の重要モデル公開の可能性を報道</h3>
+          <p>同報道は、SpaceXAI-Cursor 共同モデルの可能性と The Information のリリース時期報道に触れています。</p>
+        </article>
+        <article class="event" data-kind="reported">
+          <time datetime="2026-06-28">2026年6月28日</time>
+          <h3>Musk 投稿が Grok 4.5 の私的ベータに言及</h3>
+          <p>投稿では Grok 4.5 が 1.5T V9 foundation model ベースで、Cursor データを補助訓練に加え、SpaceX と Tesla で私的ベータ中とされています。</p>
+        </article>
+        <article class="event" data-kind="watch">
+          <time datetime="2026-07-08">次に見るべきもの</time>
+          <h3>公開モデルカード、API 文書、価格、評価を待つ</h3>
+          <p>重要な確認材料は、xAI 公式リリースノート、公開モデル ID、価格項目、モデルカード、再現可能なベンチマークです。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section keyword-section">
+      <h2>日本語 SEO 向けの Grok 4.5 ロングテールキーワード</h2>
+      <p class="section-lede">日本語検索では、リリース日、API 利用可否、ベンチマーク、既存モデルとの比較に強い意図があります。</p>
+      <div class="keyword-grid">
+        <span>Grok 4.5 リリース日</span>
+        <span>Grok 4.5 最新情報</span>
+        <span>Grok 4.5 API</span>
+        <span>Grok 4.5 使える</span>
+        <span>Grok 4.5 モデル</span>
+        <span>Grok 4.5 ベンチマーク</span>
+        <span>Grok 4.5 Grok 4.3 比較</span>
+        <span>Grok 4.5 私的ベータ</span>
+        <span>Grok 4.5 Cursor データ</span>
+        <span>Grok 4.5 SpaceX Tesla ベータ</span>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <h2>Grok 4.5 vs Grok 4.3：今、安全に比較できること</h2>
+        <p class="section-lede">Grok 4.5 が公開されるまでは、比較は確定性能ではなく、期待点と未確認事項として表現する必要があります。</p>
+      </div>
+      <div class="comparison">
+        <div>
+          <h3>現在確認できること</h3>
+          <ul>
+            <li>公式ドキュメントで公開モデル掲載を確認できる。</li>
+            <li>報道を日付付きで引用できる。</li>
+            <li>私的ベータの主張は公開 X 投稿に帰属できる。</li>
+          </ul>
+        </div>
+        <div>
+          <h3>まだ不明なこと</h3>
+          <ul>
+            <li>公開 Grok 4.5 API モデル ID。</li>
+            <li>リリース日と提供地域。</li>
+            <li>価格、コンテキスト長、レート制限、ツール対応。</li>
+            <li>Grok 4.3、Claude、GPT モデルに対する検証済みベンチマーク。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div>
+        <h2>Grok 4.5 を待ちながら、現在の Grok を試す</h2>
+        <p>このページでリリース状況を追跡しつつ、自分のプロンプトで現在利用できる Grok アクセスを試せます。</p>
+      </div>
+      <a class="button primary" href="https://trygrokai.asia/list/" rel="nofollow sponsored">TryGrokAI を開く</a>
+    </section>
+
+    <section class="section" id="sources">
+      <h2>このページで確認したソース</h2>
+      <p class="section-lede">公式ソースと報道を並べ、信頼度を判断しやすくしています。</p>
+      <div class="source-list">
+        <a href="https://docs.x.ai/developers/models">xAI 公式モデルドキュメント</a>
+        <a href="https://x.ai/news">xAI 公式ニュースページ</a>
+        <a href="https://gizmodo.com/spacexai-will-reportedly-release-a-major-new-ai-model-this-week-2000782710">Gizmodo 2026年7月8日記事</a>
+        <a href="https://x.com/elonmusk/status/2071184354756477041">Elon Musk 2026年6月28日 X 投稿</a>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <h2>FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>Grok 4.5 はリリース済みですか？</summary>
+          <p>このページでは公開リリースを確認していません。2026年7月8日時点で、xAI 公式モデルドキュメントに Grok 4.5 は公開 API モデルとして掲載されていません。</p>
+        </details>
+        <details class="faq-item">
+          <summary>Grok 4.5 のリリース日はいつですか？</summary>
+          <p>xAI 公式ページでは公開リリース日は確認されていません。現在の情報はリリースウォッチと報道シグナルとして読むのが適切です。</p>
+        </details>
+        <details class="faq-item">
+          <summary>Grok 4.5 API は今使えますか？</summary>
+          <p>公式 xAI ドキュメント上で公開 Grok 4.5 API モデル ID は確認されていません。推測のモデル名を本番環境に使うべきではありません。</p>
+        </details>
+        <details class="faq-item">
+          <summary>Grok 4.5 のベンチマークは公式ですか？</summary>
+          <p>現在の公開情報だけでは信頼できるベンチマーク表にはなりません。公式モデルカード、評価方法、第三者の再現可能なテストを待つ必要があります。</p>
+        </details>
+        <details class="faq-item">
+          <summary>このページは xAI と提携していますか？</summary>
+          <p>いいえ。独立したランディングページおよびニューストラッカーです。会社名とモデル名は各所有者に帰属します。</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>独立した Grok 4.5 トラッカーです。製品、API、購入判断の前に xAI 公式ドキュメントを確認してください。</p>
+    <p>&copy; <span data-year></span> Grok 4.5 Watch.</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

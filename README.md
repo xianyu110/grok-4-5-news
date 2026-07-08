@@ -11,10 +11,18 @@ Static GitHub Pages landing page for `Grok 4.5` search intent.
 ## Files
 
 - `index.html` - SEO landing page and source-separated tracker
+- `zh-cn/index.html` - Simplified Chinese localized page
+- `ja/index.html` - Japanese localized page
 - `styles.css` - responsive visual system
 - `script.js` - timeline filter interaction
 - `assets/hero.png` - generated hero image copied into the project
 - `robots.txt`, `sitemap.xml`, `llms.txt` - crawler metadata
+
+## International SEO
+
+- Canonical URLs are self-referencing on every language page.
+- HTML hreflang alternates use `en-US`, `zh-CN`, `ja`, and `x-default`.
+- `sitemap.xml` includes the same full hreflang alternate set for all three URLs.
 
 ## Deploy
 
